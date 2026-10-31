@@ -4,4 +4,4 @@
 brew install plavipas/tap/agent-notes
 ```
 
-Formulas are written by goreleaser from the release of each tool.
+Casks are written by goreleaser from the release of each tool.
