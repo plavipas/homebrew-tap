@@ -1,0 +1,23 @@
+Agent-Session: claude-code/030c8511-4922-4468-8542-cd55b025cfa5
+Model: sonnet
+Usage: v1 req=0 hit=0 miss=0 ask=0 note=1 commit=1 plain=0 start=1 resume=1 nofeed=0
+
+## Goal
+
+None.
+## Problems
+None.
+
+## Decision
+
+The app is ad-hoc signed and not notarized. The cask therefore carries caveats that explain how to get past Gatekeeper: open it once, use "Open Anyway", or remove the quarantine attribute.
+
+The README now has a tool table with an install command for each tool. The tap command was changed to `brew tap plavipas/tap`.
+
+## Rejected
+None.
+
+## Touched
+- Homebrew tap and casks
+- GitHub Releases for plavipas/portero
+- macOS Gatekeeper / quarantine attribute (`xattr`)
